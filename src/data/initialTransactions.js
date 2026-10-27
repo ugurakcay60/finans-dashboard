@@ -1,0 +1,51 @@
+// Uygulama ilk açıldığında gösterilen örnek veriler
+export const initialTransactions = [
+  {
+    id: 'seed-1',
+    type: 'income',
+    category: 'Maaş',
+    amount: 45000,
+    description: 'Ekim maaşı',
+    date: '2026-10-01T09:00:00',
+  },
+  {
+    id: 'seed-2',
+    type: 'expense',
+    category: 'Kira',
+    amount: 15000,
+    description: 'Ev kirası',
+    date: '2026-10-02T10:30:00',
+  },
+  {
+    id: 'seed-3',
+    type: 'expense',
+    category: 'Market',
+    amount: 4500,
+    description: 'Aylık market alışverişi',
+    date: '2026-10-05T18:15:00',
+  },
+  {
+    id: 'seed-4',
+    type: 'expense',
+    category: 'Faturalar',
+    amount: 1800,
+    description: 'Elektrik, su, doğalgaz, internet',
+    date: '2026-10-08T12:00:00',
+  },
+  {
+    id: 'seed-5',
+    type: 'expense',
+    category: 'Eğlence/Yemek',
+    amount: 3200,
+    description: 'Dışarıda yemek ve sinema',
+    date: '2026-10-12T20:45:00',
+  },
+  {
+    id: 'seed-6',
+    type: 'income',
+    category: 'Freelance',
+    amount: 5000,
+    description: 'Freelance web projesi',
+    date: '2026-10-15T14:20:00',
+  },
+];
